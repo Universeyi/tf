@@ -1,6 +1,6 @@
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-from PIL import Image
+#from PIL import Image
 train = pd.read_csv("../input/train.csv")
 test  = pd.read_csv("../input/test.csv")
 print("Training set has {0[0]} rows and {0[1]} columns".format(train.shape))
